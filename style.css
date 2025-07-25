@@ -15,7 +15,7 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   background-color: #111;
   box-shadow: 0 2px 5px rgba(0,255,150,0.1);
 }
@@ -36,8 +36,8 @@ nav a:hover {
 }
 
 .hero {
-  padding: 40px;
-  text-align: center;
+  padding: 38px;
+  text-align: left;
 }
 
 .social a {
@@ -161,7 +161,7 @@ footer {
 }
 .skills-section {
   padding: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .skills-container {
@@ -203,3 +203,22 @@ footer {
     width: 80%; /* take more width on mobile */
   }
 }
+.intro-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  
+}
+
+.profile-dp {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #00ff99;
+  box-shadow: 0 0 8px #00ff99;
+  object-fit: cover;
+  transition: transform 0s ease;
+}
+
+
